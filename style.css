@@ -1,0 +1,109 @@
+
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: yellow;
+    
+
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.Calculator{
+    border:2px solid black;
+    border-radius: 7px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    
+
+}
+#result{
+    width:100%;
+    
+    height:80px;
+    font-size:60px;
+    text-align: right;
+    border-top:2px solid black;
+    padding-right:10px;
+    
+    background-color: black;
+    color:white;
+    
+    
+}
+
+.calc-keys{
+    width:100%;
+    height:300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    background-color: white;
+}
+button{
+    font-size:1.5rem;
+}
+.operator{
+    color:black;
+    transition: 0.4s;
+    background-color: peachpuff;
+}
+.operator:hover{
+    background-color:black;
+    color: white;
+}
+.number{
+    color:red;
+    transition: 0.4s;
+    background-color: lightblue;
+}
+.number:hover{
+    background-color: red;
+    color:black;
+}
+.decimal{
+    color:black;
+    transition: 0.4s;
+    background-color: burlywood;
+}
+.decimal:hover{
+    color:white;
+    background-color: black;
+}
+.del:hover {
+    color:orange;
+    background-color: black;
+}
+
+.del{
+    background-color: orange;
+    color:black;
+}
+.all-clear{
+    background-color: orange;
+    color:black;
+
+}
+
+.all-clear:hover{
+    background-color: black;
+    color: white;
+}
+.equal-sign:hover{
+    color:white;
+    background-color: black;
+    
+}
+.equal-sign{
+    color:black;
+    
+    grid-row-start: 2;
+    background-color:peachpuff;
+    
+}
